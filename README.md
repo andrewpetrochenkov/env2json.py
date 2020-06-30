@@ -1,21 +1,16 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/env2json.svg?longCache=True)](https://pypi.org/project/env2json/)
-[![](https://img.shields.io/pypi/v/env2json.svg?maxAge=3600)](https://pypi.org/project/env2json/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/env2json.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/env2json.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/env2json.svg?maxAge=3600)](https://pypi.org/project/env2json/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/env2json.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/env2json.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install env2json
 ```
-
-#### Executable modules
-usage|`__doc__`
--|-
-`python -m env2json path` |print `.env` as json
 
 #### Examples
 `.env.dev`
@@ -41,5 +36,5 @@ $ python -m env2json .env.dev > .env.dev.json
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

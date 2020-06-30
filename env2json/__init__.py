@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+__all__ = ['parse']
+
+
 import os
 
 
@@ -16,5 +18,6 @@ def parse(line):
     """find first comment mark after second quote mark"""
     if '#' in line:
         line = line[:line.find('#', quote_delimit)]
-    key, value = map(lambda x: x.strip().strip('\'').strip('"'),line.split('=', 1))
+    key, value = map(lambda x: x.strip().strip(
+        '\'').strip('"'), line.split('=', 1))
     return {key: value}
